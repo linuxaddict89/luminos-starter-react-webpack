@@ -39,7 +39,7 @@ def main():
 class MyApp(Application):
     def __init__(self, argsv):
         plugin_dir = os.path.join(os.path.dirname(__file__), "plugins")
-        self.registerUriScheme("runcy", os.path.dirname(__file__))
+        self.registerUriScheme("myapp", os.path.dirname(__file__))
         self.registerUriScheme("plugins", plugin_dir)
 
         super().__init__(argsv, "runcy")
@@ -54,6 +54,6 @@ class MyApp(Application):
         if len(args.url) > 0:
             self.window.loadUrl(args.url[0])
         else:
-            self.window.loadUrl('runcy://app/index.html')
+            self.window.loadUrl('myapp://app/index.html')
 
         self.window.show()
