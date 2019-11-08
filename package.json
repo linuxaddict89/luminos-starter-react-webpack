@@ -4,7 +4,7 @@
   "scripts": {
     "start:dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --hot",
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "publish:pypi": "npm run build && python setup.py sdist && twine upload dist/*",
+    "publish:pypi": "npm run clean && npm run build && python setup.py sdist && twine upload dist/*",
     "clean": "del myapp/app/** !myapp/app/favicon.ico"
   },
   "dependencies": {
