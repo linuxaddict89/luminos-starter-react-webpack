@@ -10,6 +10,12 @@ class ThemeProvider extends Component {
     children: PropTypes.element.isRequired,
   };
 
+  componentDidMount() {
+    if (this.props.theme) {
+      this.changeTheme(this.props.theme);
+    }
+  }
+
   changeTheme(themeName) {
     fetch(`/themes/${themeName}.css`).then(async res => {
       const response = await res.text();

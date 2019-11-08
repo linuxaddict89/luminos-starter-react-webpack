@@ -27,7 +27,7 @@ class Root extends Component {
 
     return (
       <Provider store={store}>
-        <ThemeProvider>
+        <ThemeProvider theme="default">
           <LanguageProvider
             locale={this.state.locale}
             messages={this.state.messages}>
