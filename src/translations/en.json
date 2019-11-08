@@ -1,0 +1,20 @@
+{
+  "learn-react": "Learn React",
+  "scaffoldingHeader": "Quick scaffolding",
+  "scaffoldingMessage": "Automate the creation of components, containers, routes - and their tests - right from the CLI!",
+  "feedbackHeader": "Instant feedback",
+  "feedbackMessage": " Enjoy the best DX and code your app at the speed of thought! Your saved changes to the CSS and JS are reflected instantaneously without refreshing the page. Preserve application state even when you update something in the underlying code!",
+  "javascriptHeader": "Next generation JavaScript",
+  "javascriptMessage": "Use template strings, object destructuring, arrow functions, JSX syntax and more, today.",
+  "cssHeader": "Features",
+  "cssMessage": "Next generation CSS",
+  "intlHeader": "Complete i18n Standard Internationalization & Pluralization",
+  "intlMessage": "Scalable apps need to support multiple languages, easily add and support multiple languages with `react-intl`.",
+  "featuresHeader": "Features",
+  "notFoundHeader": "Page not found.",
+  "licenseMessage": "This project is licensed under the MIT license.",
+  "authorMessage": " Made with love by {author}.",
+  "features": "Features",
+  "features-header": "Features",
+  "home": "Home"
+}

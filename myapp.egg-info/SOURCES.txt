@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+myapp/MyAppWindow.py
+myapp/__init__.py
+myapp/__main__.py
+myapp/myapp.py
+myapp/utils.py
+myapp.egg-info/PKG-INFO
+myapp.egg-info/SOURCES.txt
+myapp.egg-info/dependency_links.txt
+myapp.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+recursive-include myapp *.py *.html *.css *.js *.otf *.woff *.woff2 *.svg
+recursive-include myapp *.png *.jpg *.jpeg *.webp *.gif
+recursive-include plugins *.py *.js *.plugin *.css
+include LICENSE.txt
+include README.md
+include requirements.txt

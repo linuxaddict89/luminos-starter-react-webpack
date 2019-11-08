@@ -1,0 +1,15 @@
+{
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "autopep8",
+  "python.jediEnabled": false,
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "python.pythonPath": ".venv/bin/python3",
+  "python.venvFolders": [".venv"],
+  "python.formatting.autopep8Path": "~/.local/bin/autopep8",
+  "eslint.autoFixOnSave": true
+}
