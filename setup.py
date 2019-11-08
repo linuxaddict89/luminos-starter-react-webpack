@@ -67,7 +67,7 @@ setup(
     packages=find_packages(exclude=['tests', 'tests.*', 'plugins', 'plugins.*']),
     url="https://gitlab.com/fisma/luminos",
     license="MIT",
-    author="Fisma Linux Project",
+    author="Fisma Team",
     author_email="myemail@address.com",
     description="Luminos quick start application.",
     long_description=long_description,
