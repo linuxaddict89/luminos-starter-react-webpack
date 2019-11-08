@@ -5,3 +5,4 @@ node_modules
 myapp/app
 *.lock
 dist/
+myapp.egg-info/
