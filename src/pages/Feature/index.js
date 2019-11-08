@@ -21,7 +21,12 @@ const ListItemTitle = styled.p`
 `;
 
 const Container = styled.div`
-  min-height: var(--content-height);
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  top: 0;
+  height: var(--content-height);
+  color: var(--accent-color);
 `;
 
 export default function FeaturePage() {

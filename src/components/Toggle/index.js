@@ -20,9 +20,8 @@ function Toggle(props) {
     ));
   }
   function handleToggle(e) {
-    console.log("onToggle", e.target.value)
     if (props.onToggle) {
-      props.onToggle(e)
+      props.onToggle(e);
     }
   }
 

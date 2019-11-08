@@ -3,8 +3,8 @@ import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
 
 import LocaleToggle from '../LocaleToggle';
+import ThemeToggle from '../ThemeToggle';
 import { defaultTranslationMessages as messages } from '../../i18n';
-
 
 const Wrapper = styled.footer`
   display: flex;
@@ -12,6 +12,7 @@ const Wrapper = styled.footer`
   padding: 3em 0;
   border-top: 1px solid #666;
   height: calc(var(--footer-height) - 6.1em);
+  color: var(--accent-color);
 `;
 
 const A = styled.a`
@@ -21,7 +22,6 @@ const A = styled.a`
   }
 `;
 
-
 function Footer() {
   return (
     <Wrapper>
@@ -30,6 +30,9 @@ function Footer() {
       </section>
       <section>
         <LocaleToggle />
+      </section>
+      <section>
+        <ThemeToggle />
       </section>
       <section>
         <FormattedMessage

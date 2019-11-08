@@ -17,6 +17,8 @@ const HomeContent = styled.div`
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #000;
+  height: var(--content-height);
+  color: var(--accent-color);
   & .App-logo {
     height: calc(var(--content-height) - 120px - 80px);
     padding: 40px;
