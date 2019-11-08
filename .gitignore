@@ -6,3 +6,4 @@ myapp/app
 *.lock
 dist/
 myapp.egg-info/
+*.log
