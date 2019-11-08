@@ -3,7 +3,7 @@ import config from '../../i18n';
 
 const CHANGE_LOCALE = 'app/LanguageToggle/CHANGE_LOCALE';
 export const initialState = {
-  locale: 'en',
+  locale: localStorage.getItem('language') || 'en',
 };
 
 /* eslint-disable default-case, no-param-reassign */
