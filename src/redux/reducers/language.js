@@ -1,7 +1,6 @@
 import produce from 'immer';
-import config from '../../i18n';
+import { CHANGE_LOCALE } from '../actions/language';
 
-const CHANGE_LOCALE = 'app/LanguageToggle/CHANGE_LOCALE';
 export const initialState = {
   locale: localStorage.getItem('language') || 'en',
 };
